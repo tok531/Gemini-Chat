@@ -1,0 +1,116 @@
+.chatwindow{
+    max-height: 100vh;
+    padding: 70px 0px 0px;
+    display: flex;
+    text-align: center;
+
+}
+.questionsDiv, .chatDiv {
+    height: 90vh;
+}
+.questionsDiv{
+    background-color: rgba(238, 235, 235, 0.459);
+    width: 20%;
+    padding: 80px 5px;
+    z-index: 1;
+}
+
+.questionsDiv .newChat {
+    width: 100%;
+    border-radius: 25px;
+    height: 50px;
+    border: 0;
+    background-color:#629082b3;
+}
+.questionsDiv .newChat .plusChat {
+    font-size: 30px;
+    border-radius: 50%;
+    color: #629082d8;
+    background-color: rgb(235, 232, 232);
+}
+.questionsDiv .newChat:hover .plusChat {
+    color: #2a443cd8;
+}
+.questionsDiv .newChat:hover{
+    box-shadow: 1px 5px 10px 3px rgb(142, 141, 141);
+    background-color:#629082fa;
+
+}
+.questionsDiv .newChat b {
+    font-size: 17px;
+}
+@media screen and (max-width: 770px) {
+    .questionsDiv{
+        width: 13%;
+    }
+    .questionsDiv button {
+        width: 50px;
+        border-radius: 50%;
+        padding-left: 7px;
+    }
+   
+    .questionsDiv button b {
+       display: none;
+
+    }
+}
+.chatDiv{
+    width: 80%;
+    margin-left: auto;
+}
+.chatinput{
+    margin-top: 30px;
+}
+.chatinput input{
+    width: 80%;
+    margin-left: 10px;
+    height: 50px;
+    border-radius: 25px;
+    padding-left: 10px;
+    border: none;
+}
+.chatinput button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 20px;
+    background-color: rgba(98, 144, 130, .3) ;
+    transform: translateX(10%);
+}
+.chatinput button:hover {
+    background-color: rgb(73, 124, 109) ;
+    color: white;
+}
+.conversation {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.conversation .yourQ {
+    background-color:#266894 ;
+    font-size: 20px;
+    color: white;
+    min-height: 70px;
+    max-width: 50vw;
+    line-height: 30px;
+    margin-left: 80%;
+    padding: 20px 20px;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+.conversation .AIanswer {
+    background-color:#82c2b0f7 ;
+    color: rgb(65, 65, 65);
+    font-size: 19px;
+    min-height: 70px;
+    line-height: 30px;
+    padding: 20px 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    margin-left: 0px;
+
+}
+.QA{
+text-align: start;
+}
