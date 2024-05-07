@@ -36,7 +36,7 @@ const Navbar = ()=>{
           <div className="collapse navbar-collapse py-3" id="navbarNavDropdown" >
             <ul className="navbar-nav container " >
               <li className="nav-item  text-start text-md-center ">
-                  <Link to="/laptops" className="nav-link " href="products.html">AI Chat</Link>
+                  <Link className="nav-link " href="#">AI Chat</Link>
               </li>
               <li className="nav-item   text-start text-md-center ">
                   <Link className="nav-link " href="#">AI Image Generator</Link>
